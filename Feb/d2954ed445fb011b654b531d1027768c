@@ -1,0 +1,51 @@
+A teacher at an upstate New York middle school was arrested Monday for allegedly planting a hidden camera in a staff bathroom, a report said. Patrick Morgan, 57, was charged with 22 counts of unlawful surveillance for allegedly placing the recording device inside the employee restroom at Sand Creek Middle School in the Albany County town of Colonie, WNYT-TV reported.  The camera, which resembled a phone charger, was discovered last Friday after capturing images of several staffers inside the bathroom. Police said it appears the camera was in place for at least a couple of days. Investigators do not believe any students were recorded. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-1a405e2b4a8be1a97d0a624324ef73d3')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-1a405e2b4a8be1a97d0a624324ef73d3'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); Morgan — who has taught in the district for 28 years — was placed on administrative leave. He was set free Monday on supervised release and a judge ordered him to undergo a mental health evaluation.
