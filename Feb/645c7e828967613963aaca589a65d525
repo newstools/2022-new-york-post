@@ -1,0 +1,51 @@
+Hillary Clinton knocked former President Donald Trump, Sarah Palin, Fox News and Facebook Thursday speaking to New York state Democrats amid speculation she might try a third bid for the White House and controversy surrounding the Durham probe. “They’ve been coming after me again,” Clinton said, referencing the Durham probe, telling the crowd not to “get distracted by some new culture war nonsense or some new right-wing lie on Fox or Facebook.” “It’s fine, the more trouble Trump gets into, the wilder the charges and conspiracy theories about me seem to get, so now his accountants have fired him and investigations draw closer to him,” she said, in remarks reminiscent of a campaign speech. Clinton went on to say Fox News is “getting awfully close to actual malice in their attack,” referencing Palin’s failed defamation suit against the New York Times. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-e4e3a065b27e3ad7466dd109efd35776')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-e4e3a065b27e3ad7466dd109efd35776'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); Clinton arrived to jeers from a few protesters outside the convention, but walked onto the stage for her speech to Sia’s song “Unstoppable” and robust applause. Clinton, in what sounded like an early 2024 campaign speech, formally endorsed Gov. Kathy Hochul for her re-election campaign and praised Mayor Eric Adams for his “hands-on, energetic, no-nonsense leadership” in her speech. “Welcome back, Hillary Clinton,” Hochul said in her speech following Clinton, whom she praised as a “great leader.” “It is so great to see you and hear your voice of reason,” the governor said. Clinton addressed the crowd in Times Square at the state Democrats’ nominating convention, where just four years ago she spoke in support of former Gov. Andrew Cuomo, who resigned in disgrace last year amid allegations of sexual misconduct from several women. He has denied any wrongdoing. The former first lady, senator, secretary of state and two-time Democratic presidential candidate’s speech comes as Dem insiders have floated a comeback for Clinton, 74, as President Biden and Vice President Kamala Harris continue to tank in polls. But Clinton has found herself in hot water once again after last week’s court filing by special counsel John Durham alleging that her 2016 presidential campaign paid for computer research to link then-candidate Trump to Russia. Clinton shot back on Tuesday, saying on Twitter that “Trump & Fox are desperately spinning up a fake scandal to distract from his real ones.” The few protesters who met Clinton outside appeared to be protesting vaccine mandates, and one was holding a sign with the Canadian flag in an apparent nod to the anti-vaccine trucker “Freedom Convoys” up north. One woman had a sign that read, “Evil Killary.”
