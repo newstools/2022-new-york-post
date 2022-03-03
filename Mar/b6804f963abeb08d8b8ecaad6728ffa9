@@ -1,0 +1,51 @@
+A California couple murdered their adopted children and then waited three months to falsely report to cops that the kids disappeared while playing in the backyard, officials said Wednesday. Trezell West and Jacqueline West were arrested Tuesday night for killing 4-year-old Orrin and 3-year-old Orson, whose supposed disappearance in 2020 sparked a huge search effort in California City, the Kern County prosecutor said. The children’s bodies haven’t been found, but a grand jury voted to indict the Wests last week, Kern District Attorney Cynthia Zimmer told reporters at a news conference. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c7ce160ee1bd183d39092f831e8f42a3')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c7ce160ee1bd183d39092f831e8f42a3'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); “This morning, I’m saddened to announce that the investigation has revealed that Orrin and Orson West are deceased,” she said. “The investigation has also revealed that they died three months before their adoptive parents reported them missing.” The Wests had called local police to report the children missing on Dec. 21, 2020, in California City, with the California Highway Patrol, FBI and Kern County Sheriff’s Department joining in the search. But a week later, information surfaced that sparked the involvement of cops in Bakersfield, a town where the Wests used to live that is about 60 miles from California City, the DA said. Bakersfield Police Chief Greg Terry discussed the tragic twist in what began as a missing children case. “We now realize the search for the boys had begun after the real tragedy had already occurred,” Terry said. “This is not a resolution in this case and there will not be a resolution completely in this case until these boys are brought home.” The couple remained jailed on charges including second-degree murder, child abuse and false report of an emergency. They were scheduled to be arraigned Thursday, the DA said. Details of the allegations weren’t released, but authorities said more than 50 people testified to the grand jury. Orrin and Orson’s families’ “worst fears have been realized” with the revelation that the children had died, Terry said. “This is not the outcome that we and so many had hoped and prayed for over the last year,” Terry said. With Post wires
