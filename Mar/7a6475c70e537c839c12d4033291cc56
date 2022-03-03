@@ -1,0 +1,51 @@
+Chilling dashcam video captured the moment a father of two was fatally shot in Chicago during a road-rage incident with another driver — who was later arrested on a murder charge. Scott Mattison, 46, is seen arguing with the driver of a white Ford sedan about 5:30 p.m. Sunday near Bartlett and Oltendorf roads in the northwestern suburb of Streamwood, CBS Chicago reported. He appears to stick his arm into the vehicle before being shot. “He didn’t deserve to die — to be gunned down the way he was,” Kevin Polka, Mattison’s boss at Paragon Mechanical Inc. in Arlington Heights, where the victim worked as an HVAC installer, told the news outlet. “He always was about his daughters,” Polka added. When asked if he was surprised that his close friend had gotten out of his work truck, a blue Ford pickup, before he was killed, Polka said he didn’t know — but that if he hadn’t, “he would be here today.” He added: “He wasn’t perfect by any means.” ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-11f9495d667c29215f0e05a37ab56e79')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-11f9495d667c29215f0e05a37ab56e79'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); Arick Lopez, who was walking his dogs at the time of the shooting, told CBS Chicago that he “heard a couple of shots. There was arguing, one thing led to another, and consequences came.” The suspect, 18-year-old Jonathan Mejia, has been charged with first-degree murder and aggravated unlawful use of a weapon in the shooting death of the Glendale Heights man, the outlet reported Tuesday. Mejia was scheduled to appear at the Rolling Meadows Courthouse on Wednesday.
