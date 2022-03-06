@@ -1,0 +1,51 @@
+This week’s “Saturday Night Live” cold open imagined a telethon to raise money for Russia at Donald Trump’s Mar-a-Lago club. The “Ukrainian Invasion Celebration Spectacular,” hosted by Fox News’ Tucker Carlson (Alex Moffat) and Laura Ingraham (Kate McKinnon), aimed to collect donations for Russian oligarchs in danger of not being able to afford their “sugar babies” in the face of US economic sanctions over the Ukraine invasion. “Who will pour vodka in their mouths?,” McKinnon’s Ingraham asked. Trump, played by James Austin Johnson, was working the phones, but his sales pitch devolved into a rant about Rihanna’s body, aquatic whales that supported his presidency, and “Bel-Air,” the new reboot of “The Fresh Prince of Bel-Air.” ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-5189ee690b74d5cc14cda5f3f0955d25')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-5189ee690b74d5cc14cda5f3f0955d25'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); Bowen Yang portrayed a kimono-wearing Steven Segal who performed a lackluster taekwondo routine to honor his “pal,” Vladimir Putin. Donald Trump Jr. (Mikey Day) and Kimberly Guilfoyle (Cecily Strong) then took the stage to perform a pro-war version of the Lady Gaga and Bradley Cooper song “Shallow.” “Is there a bathroom with a mirrored counter nearby?,” a visibly coked-up Day inquired. “Of course there is, it’s Mar-a-Lago,” Moffat’s Carlson replied. The fictional ex-president then grabbed the mic to serenade Putin with an off-key rendition of Frank Sinatra’s “My Funny Valentine” to wrap up the skit. Host Oscar Isaac, who is starring as the title character in the new Marvel series “Moon Knight,” showed a clip from a movie he made when he was 10, called “The Avenger.” Young Isaac played a ninja who broke wooden boards and got into sword fights with himself in his friend’s backyard as his dad cleaned the pool. “Arguably better than ‘The Avengers,’ and I made it for half the budget, only $110 million,” he cracked. “It’s important kids to encourage kids to be weirdos, because every once and a while one of those weirdoes grows up to host SNL,” he said to applause. After his monologue, Isaac portrayed a city councilman who urged constituents to vote out a mayor who replaced the police department with her “Paw Patrol” force of six animated canine officers. Chloe Fineman drew huge laughs when she realized she could manipulate people into buying her things if she talked with a nondescript European accent like the SoHo grifter — whose elaborate cons were recently dramatized in Netflix’s “Inventing Anna” series. In a new episode of “Inventing Chloe,” Fineman put on Anna Sorokin’s trademark Céline eyeglasses and designer outfits, and became emboldened to boss around and disparage her co-workers. “This food, is like basic, you know? Chips, are like broke ass. We need something more exclusive, like Nobu. Run it on my card,” she demanded as she threw down her Metro Card. After informing Michael Che she would now be the new host of “Weekend Update,” she told Isaac that his denim outfit made him look impoverished. “Wat are you wearing? You look purr,” she slurred to the guest host. Isaac and Strong posed as human resources representatives giving an off-kilter sexual harassment seminar at a drug company. “We’re the one you come to when you have anonymous complaints, like when Debra told us what Kevin was doing,” Strong said. The speakers then explained to confused office workers why it was acceptable for them to comment on each other’s bodies and toss around the “n-word.” A third date between Chris Redd and Melissa Villaseñor quickly cooled off when Redd discovered Villaseñor had a bunch of singing tumor-like meatballs on her skin. The growths — played by Isaac, Bowen, Kenan Thompson, Kyle Mooney, Aidy Bryant, and musical guest Charli XCX — then broke into harmony as Redd broke off the relationship. “Update” once again turned to the war in Ukraine for jokes at the Russian dictator’s expense. “It’s amazing how much suffering could have been avoided if Putin (5’6″) was just a few inches taller,” Che quipped. Co-anchor Colin Jost offered his opinion on Sen. Lindsey Graham’s plea for Kremlin insiders to assassinate the Russian leader. “It is a shocking disgusting example of Lindsey Graham being kind of right about something,” he said of the Republican. McKinnon, who is openly gay, came on the segment to praise Florida’s “Don’t Say Gay” law, explaining she didn’t like it when kids used the term as an insult in her middle school. “If the 90s were right, and gay means bad, then this is the gayest law I’ve ever seen,” she said after learning of the law’s true intent. Trying to break out of her usual matronly roles, Bryant portrayed a 1930s Hollywood starlet who tired to seduce Isaac in an art deco penthouse, to comedic effect. She explained to the audience that she only likes to play romantic roles with heartthrobs and rappers. “Every time I do something sexual on the show it’s totally random, like with Ryan Gosling or Drake,” she said, as she showed goofy clips of her past A-list conquests. Thompson hosted a “Home Improvement”-esque show where he “talks to folks who got a little overconfident doing jobs around the house,” and gets nagged by his wife, played by Ego Nwodim. “I do wish I hadn’t punctured my septic tank,” Mooney said, about his efforts to install a pool with a shovel and hose. In the final skit, Isaac played a school janitor who recited passages from his 800-page novel about a romance with Dua Lipa, to the excitement of the students and the dismay of Bryant, who was back in a more typically chaste role as a homely teacher. British pop star Charli XCX performed her songs “Beg For You” and “Baby.” Pete Davidson was conspicuously absent for the show for the second straight week as he continued to shoot a movie and laugh off threats from his girlfriend Kim Kardashian’s estranged husband Kanye West. The NBC show will be live again next week, hosted by “The Batman” actress Zoë Kravitz and featuring music from Spanish sensation Rosalía.
