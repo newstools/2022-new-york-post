@@ -1,0 +1,51 @@
+Police were able to track down a suspect involved in the stabbing death of a couple after a server recognized him as a person she served. Last Tuesday, photos and video of a man, now identified as Jean Macean, were shared in connection with the murder of a husband and wife in Daytona Beach. That was when Valerie Court, a waitress in the area, realized she served the man on Saturday, March 5. Macean had used a credit card to pay for his meal as well. “I’m very happy that I was able to help them get a dangerous person off the street,” Court said. Court said that Macean sat at her table for a late lunch dressed in the same outfit she had seen on the news. The man was also carrying a backpack. “I thought maybe he wanted to be left alone, because he was short-worded with me, so I just kept his tea filled up,” she said. It was hours after their brief encounter that Terry and Brenda Aultman were repeatedly stabbed early Sunday morning. The couple was riding their bikes home at the time of their deaths. Court said that the man had paid with a credit card. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-f044906be5bb5242dc5702d5aa5fc8d0')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-f044906be5bb5242dc5702d5aa5fc8d0'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); “It didn’t have his name on it. It said ‘my temporary pay card’ but he did initial, sign it and initial it ‘JM’,” she said. Using that receipt, police were able to track down Jean Macean to a location in Orlando, eventually arresting him there. “I wanted to catch this guy. I wanted to help the police department and help the community,” said Court. “I knew I had valuable information.” Court contacted police before the agency was about to offer a $50,000 reward. It’s unknown when or if the reward will be paid out. “I didn’t do it for the reward, I did it for the police department to help get a dangerous person off the street,” she said. Court said she is still spooked by her encounter with the suspect but feels relief that he has been identified and arrested. This story originally appeared on The Sun and has been reproduced here with permission.
