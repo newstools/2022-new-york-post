@@ -1,0 +1,51 @@
+Arnold Schwarzenegger made an impassioned online plea to Russians Thursday, urging them to ignore the war “propaganda” spewed by the Kremlin and “spread truth” about the bleak reality of the unprovoked attack on Ukraine. In a nine-minute long video clip meant to slip through strict Moscow censors, Schwarzenegger, 74, also invoked his father’s experience fighting with the Nazis in World War II after the annexation of Austria — telling Russians his dad was “pumped up on the lies of his government” and lived the rest of his life in “guilt” and “pain.” The one-time Mr. Universe began by talking about his reverence for the Russian people, cemented when he met world champion weightlifter Yuri Petrovich Vlasov at the age of  14. Schwarzenegger told viewers that Moscow was lying to both the Russian public and troops about their mission to “denazify” Ukraine. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-a4e6af02eda80bbaed930db92e8d9c3a')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-a4e6af02eda80bbaed930db92e8d9c3a'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); “Denazify Ukraine? This is not true. Ukraine is a country with a Jewish president. A Jewish president, I might add, whose father’s three brothers were all murdered by the Nazis,” Schwarzenegger said, over a superimposed Russian translation. Get the latest updates in the Russia-Ukraine conflict with The Post’s live coverage. He went on to describe Russia’s near-unanimous international alienation, and the historic economic sanctions it was facing. “You see the world has turned against Russia because of its actions in Ukraine,” Schwarzenegger said. “Whole city blocks have been flattened by Russian artillery and bombs, including a children’s hospital and maternity hospital. Three million Ukrainian refugees, mainly women children and the elderly, fled their country. And many more are trying to seek to get out. “It’s a humanitarian crisis.” Speaking directly to Russian troops, the former Republican California governor explained that every strike on Ukraine is also a strike on Russia, because of the millions of Russians that have families in the former Soviet republic. “Every bullet that you shoot you shoot a brother or sister. Every bomb or every shell that falls is falling not on an enemy but on a school or a hospital or a home,” he said. Schwarzenegger also spoke about the reality of his father Gustav Schwarzenegger’s dark history as a sergeant in the Nazi army, something the movie star-turned-politician has rarely discussed. He warned troops they did not want to suffer the same fate as his father, who was injured fighting in Russia. “When my father arrived in Leningrad, he was all pumped up on the lies of his government,” Schwarzenegger said. “When he left Leningrad, he was broken — physically and mentally. He lived the rest of his life in pain — pain from a broken back, pain from the shrapnel that always reminded him of those terrible years and pain from the guilt that he felt.” Schwarzenegger ended the lengthy clip with a message to the “brave” Russian protesters who have demonstrated against their government’s invasion. “You are my new heroes. You have the strength of Yuri Petrovich Vlasov. You have the true heart of Russia.”
