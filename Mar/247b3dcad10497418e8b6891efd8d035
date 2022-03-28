@@ -1,0 +1,51 @@
+Party on, baby. That’s what Will Smith did early Monday morning at the Vanity Fair Oscars after party in Hollywood hours after he slapped Chris Rock across the face during the live award show. Smith, with wife Jada Pinkett Smith nearby, cheerfully sang along as the DJ played his songs “Gettin’ Jiggy Wit It” and “Miami,” according to tweets from Variety editors Marc Malkin and Ramin Setoodeh. “Asked Will Smith how he’s doing and he said, ‘It’s all love,'” Malkin shared with four pictures of Smith clenching his golden statue. Vanity Fair correspondent Rebecca Ford said Smith was also smiling for pictures throughout the night. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-cd3a6b9623cd29ca44380ce01e67d1de')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-cd3a6b9623cd29ca44380ce01e67d1de'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); But Will was singing a different tune during the show’s live broadcast. He ran onstage and attacked Rock after the comedian made a joke about Jada’s bald head. “Jada, I love you. ‘GI Jane 2,’ can’t wait to see you,” Rock quipped. Jada has been open about her hair loss condition alopecia over the years and decided to shave it all off in December 2021. “Keep my wife’s name out of your f—– mouth,” Will shouted after returning to his seat. After the ceremony, the Los Angeles Police Department released a statement saying Rock would not be pushing charges against the “Fresh Prince of Bel-Air.” Smith’s son Jaden seemingly back his father’s actions on Twitter, writing “And That’s How We Do It” shortly after the incident.
