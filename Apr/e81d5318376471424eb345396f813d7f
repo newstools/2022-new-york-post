@@ -1,0 +1,51 @@
+“Saturday Night Live” dove headfirst into the week-long controversy around Will Smith, mocking how the “Fresh Prince” seemed to turn into a different person Sunday night when he suddenly got up on stage and slapped comedian Chris Rock in face at the Oscars over a joke about his wife. In a sketch taking place at the Oscars, host Jerrod Carmichael plays a seat filler who gets opportunity to meet one of his heroes, Will Smith, played by Chris Redd. The two strike up an innocuous, friendly conversation and the filler asks Smith for a selfie when suddenly the audio of Chris Rock’s “G.I. Jane 2” joke about Smith’s bald wife plays. “Hey, I’ll be right back man,” Smith says, panning out of frame before a loud “slap” sound is heard, shocking Carmichael before he returns to his seat and continues the conversation as if nothing happened. Smith stops the conversation to yell the now-infamous “Keep my wife’s name out your f—cking mouth!” He smiles and says “Man, I love the Oscars, man,” to the filler, before again shouting the phrase. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-156c1e13e34c4b69d07d8b535f6d2d8c')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-156c1e13e34c4b69d07d8b535f6d2d8c'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); Another seat filler, Kyle Mooney, then sits down after a trip to the bathroom, having missed the slap. “Oh my God, we’re right next to Will Smith. I got to tweet this. Whoa, and he’s trending,” he says, pulling out his phone and apparently seeing the clip. “Oh my god,” he says, appalled. Smith tries to introduce himself and keep up the casual conversation but both fillers are clearly scared of the actor. “Richard Williams was a fierce protector of his family,” Smith suddenly yells, referencing the role he played that won him the Oscar for Best Actor. “I’m going to say that in my speech, man,” he tells the seat fillers. In his opening monologue, Carmichael, a standup comedian, joked about how the controversy around the slap is everywhere. “Isn’t it kind of crazy — it feels like we’ve been talking about it for so long,” he said. “This is going to blow your mind — can you believe it’s been six days? This happened a week ago. Doesn’t it feel like it happened years ago? Like doesn’t it feel like it happened when we were all in high school? “It happened on Sunday. It’s Saturday, bro.” “By Wednesday, I wanted to kill myself,” he joked. “But Friday, I made a vow to myself that I would never ever talk about it again. Then Lorne came into my dressing room. He was like ‘I think you need to talk about it.’ He said the nation needs to heal,” he said to laughter from the crowd. The Weekend Update duo of Michael Che and Colin Jost also couldn’t help joking about the so-called slap heard ‘round the world, spending nearly five minutes of their segment on the incident. Jost, who’s married to actress Scarlett Johansson who has been nominated for two Academy Awards, joked that the slap could have personal implications. “Will Smith, for those of you who don’t know, walked on stage during the academy awards and slapped Chris Rock after he made a joke about Jada Pinkett Smith, which I think was a disgraceful act that sets a terrible precedent for having to defend your wife at awards shows,” he said. “I think we should just acknowledge that that is one of the craziest things we will ever see in our lives. It’s truly like the Super Bowl wardrobe malfunction, but if Janet’s nipple slapped Timberlake,” Jost joked.
