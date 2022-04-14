@@ -1,0 +1,51 @@
+A Tennessee woman was allegedly kidnapped by her ex-boyfriend — but was rescued by police after she used a secret signal to alert a convenience store worker, authorities said. The Hickman County woman was visiting her brother Sunday when her ex-boyfriend, Johnathon Smith, 31, showed up and she got into his vehicle, The Tennessean reported. He drove east on Highway 100 when they “got into a physical confrontation” inside the truck, Lt. Mike Doddo of the Hickman County Sheriff’s Office told the paper. The woman “then asked to be let out. He said, ‘No,’” Doddo said. “(Smith) then threatened to kill her by grabbing a screwdriver and telling her, if he couldn’t have her, nobody could have her.” Smith began driving recklessly before he pulled up at the Twice Daily gas station at about 1 p.m. and walked inside with the woman, who thought of a discreet way to announce her plight. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-26569e810e2bc7faf077e4eef6e97328')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-26569e810e2bc7faf077e4eef6e97328'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); She put her palm forward, tucked her thumb in and closed her four fingers over it in front of the cashier, who repeated the gesture back and the woman nodded, Doddo said. The hand signal, which has been made popular on TikTok, is used to alert others about the need for assistance during a domestic violence situation. A customer, Eric Streeval, told WKRN that he also saw the woman enter the store and look over at him as she mouthed the word “Help.” The staff called 911 and the cashier told Smith that something was wrong with the register in an attempt to stall him — but he soon “catches on to what is going on” and leaves with the woman, Doddo said. As he drove off, a sheriff’s deputy arrived, began following the truck and chased it at speeds reaching 90 mph before it crashed into a creek on Bear Valley Road in Dickson County, the outlet said. Smith took off on foot before being tased and arrested, WKRN reported. He has been charged with aggravated kidnapping and aggravated domestic assault. The woman was not hurt in the terrifying ordeal. Streeval, the customer, happens to be a member of a motorcycle group that helps women in domestic violence situations. “If you see something, say something,” he told WKRN. “Domestic violence is a bad thing here in Tennessee. The victims, a lot of times they’re too afraid to speak out. “And I credit the young lady in this situation with having the world’s most courage of actually speaking out because who knows what would have happened,” he said.
