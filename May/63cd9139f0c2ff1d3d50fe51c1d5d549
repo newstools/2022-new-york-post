@@ -1,0 +1,51 @@
+A Tennessee family is claiming that an Apple AirTag was used to track them during their time at Walt Disney World. Jennifer Gaston told FOX 35 Orlando that the family was headed back to their car on the monorail when they made the AirTag discovery, getting a notification saying that the owner of an AirTag device had been tracking them. The Gaston family was visiting from Tennessee, according to WKRN-TV. “We were terrified, we were confused, hurt, and scared,” said Jennifer Gaston. “She literally watched it follow us from the tram all the way back to our vehicle.” Gaston’s daughter said that the device was tracking them for several hours during their time at the theme park. The family could not find the AirTag when they got to their car. They drove away and called police. Her daughter continued to track the device’s location, and it showed that it was still in the parking lot. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-81c1b38d7c7bca2017b54e27dcc3446e')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-81c1b38d7c7bca2017b54e27dcc3446e'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); “As she was refreshing it, it showed the AirTag was still in our parking spot so somehow when we were frantically shaking out clothes and dumping everything out of our bags it fell out,” Gaston said. Apple AirTags are devices meant to keep track of personal belongings in the event they are lost, but have been used by criminals in the past. Gaston said that the situation could have ended much worse. “This story could have ended way differently,” Gaston said. “I’m praising God we have the outcome we have, but it’s because she was diligent and aware of what to do.”
