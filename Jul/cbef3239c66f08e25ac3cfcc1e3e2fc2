@@ -1,0 +1,51 @@
+Cops responding to the Uvalde, Texas, school shooting ran away from gunshots while 19 children and two teachers were left to die in their classrooms, according to new footage of the horrifying attack published Tuesday. The disturbing video, first obtained by the Austin-American Statesman, shows how police officers dilly-dallied in the hallway of Robb Elementary School instead of charging after 18-year-old gunman Salvador Ramos as he systematically slaughtered 21 people on May 24. The 77-minute clip shows officers rushing into the school just minutes after 18-year-old Ramos began his rampage, but rather than confront him, they stopped and lingered — with one cop in a helmet and vest even seen using a wall-mounted hand sanitizer and checking his phone. The officers are also captured fleeing down the hallway when Ramos fires in their direction, according to the footage taken from school security cameras. ( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-9e112180d1d99ed7390e747c7f681e07')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-9e112180d1d99ed7390e747c7f681e07'
+						}, "https:\/\/embeds.nypost.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'embeds.nypost.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )(); The video validates damning reports that local and state authorities failed to take immediate action to stop the bloodbath despite being just yards from the shooter. Heavily armed officers are seen in the video walking around in the hallway, leaving, coming back, talking to each other and making calls during precious moments when they could have been trying to thwart Ramos. It is not until 77 minutes into the recording that the cops finally breach the classroom where Ramos, who died in the attack, had gunned down the innocent kids and teachers. In one moment during the recording, more than 45 minutes after they arrived on the scene, an officer in a helmet and vest is seen using a wall-mounted hand sanitizer dispenser. That same officer is also seen looking at his phone. The footage also shows the cops’ fruitless hunt for keys to the classroom — which turned out to not even have been locked. The video was scheduled to be released by state lawmakers Sunday. Officials had said they wanted to give grieving families the opportunity to view the video privately before its release. Vincent Salazar, whose 11-year-old daughter Layla Salazar was killed in the shooting, told The Post that he had not seen the video before the Statesman published it and that families of the victims felt “blindsided.” The Texas Department of Public Safety had walked him through what was in the video, but he said seeing it felt different. “We all know that the [police] didn’t do their jobs, but seeing it will reaffirm that. There needs to be accountability. A lot of these people who didn’t act shouldn’t have their jobs,” Salazar said. The Statesmen released an edited version of the footage that shows key moments of the day’s events. The paper also noted it edited out “the sound of children screaming.” The video is likely to further fuel anger for the devastated parents, many of whom waited outside the school while Ramos was shooting and were barred from entering and trying to save their children. A spokesperson for Texas House Representative Dustin Burrows, the chairman of the state committee investigating the shooting, told the Post Tuesday, “At this point, we are holding true to our word to share it with families as part of our report.” Salazar questioned why the newspaper chose to release it before families could see the video privately. “I’m not sure their reason … why not wait? I guess that’s just how media works,” he said.  State Sen. Roland Gutierrez, who represents Uvalde, called the leak of the video “appalling.” “Officials told families to prepare themselves to view this horrific footage on Sunday. Now, somebody leaked it,” he wrote, adding Texas Gov. Greg Abbott and Texas Department of Public Safety “keep letting Uvalde families down.” The head investigator looking into the shooting has called the police response an “abject failure,” and the incident is also being probed by the US Department of Justice.
